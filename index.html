@@ -236,16 +236,39 @@
 
     </div>
   </section>
-
-  <!-- Contact Section -->
+<!-- Contact Section -->
   <section class="section" id="contact">
     <h2 class="section-title">ያግኙኝ</h2>
-    <div class="contact-box">
-      <p style="margin-bottom: 15px; color: #cbd5e1;">ለስራ ወይም ለተጨማሪ ጥያቄዎች በቴሌግራም ያውሩኝ፦</p>
-      <a href="https://t.me/makiedit2" target="_blank" class="btn">💬 በ Telegram ያውሩኝ</a>
+    <div class="contact-box" style="max-width: 600px; text-align: left;">
+      <p style="margin-bottom: 20px; color: #cbd5e1; text-align: center;">ለስራ ጥያቄዎች ወይም ለተጨማሪ መረጃ መልእክት ይላኩልኝ፦</p>
+      
+      <!-- Contact Form -->
+      <form action="https://formspree.io/f/mnpqqndr" method="POST" style="display: flex; flex-direction: column; gap: 15px;">
+        <div>
+          <label style="color: #94a3b8; font-size: 14px; display: block; margin-bottom: 5px;">ስምዎት</label>
+          <input type="text" name="name" required style="width: 100%; padding: 10px; border-radius: 6px; border: 1px solid #334155; background: #0f172a; color: white; outline: none;">
+        </div>
+        
+        <div>
+          <label style="color: #94a3b8; font-size: 14px; display: block; margin-bottom: 5px;">ኢሜይልዎት</label>
+          <input type="email" name="email" required style="width: 100%; padding: 10px; border-radius: 6px; border: 1px solid #334155; background: #0f172a; color: white; outline: none;">
+        </div>
+
+        <div>
+          <label style="color: #94a3b8; font-size: 14px; display: block; margin-bottom: 5px;">መልእክትዎት</label>
+          <textarea name="message" rows="4" required style="width: 100%; padding: 10px; border-radius: 6px; border: 1px solid #334155; background: #0f172a; color: white; outline: none; resize: vertical;"></textarea>
+        </div>
+
+        <button type="submit" class="btn" style="border: none; cursor: pointer; margin-top: 10px; font-size: 16px;">መልእክት ላክ ✉️</button>
+      </form>
+
+      <div style="text-align: center; margin-top: 25px; border-top: 1px solid #334155; padding-top: 15px;">
+        <p style="color: #94a3b8; font-size: 14px; margin-bottom: 10px;">ወይም በቴሌግራም ቀጥታ ያውሩኝ፦</p>
+        <a href="https://t.me/makiedit2" target="_blank" class="btn" style="background: #0284c7; padding: 8px 18px; font-size: 14px;">💬 Telegram</a>
+      </div>
     </div>
   </section>
-
+  
   <!-- Footer -->
   <footer>
     <p>&copy; 2026 Makibel Kassaye. All rights reserved.</p>
